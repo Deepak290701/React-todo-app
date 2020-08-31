@@ -1,0 +1,41 @@
+.todo_list{
+    /* background: red; */
+    background: whitesmoke;
+    margin-top:10px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px !important;
+}
+.deleteicon{
+    cursor: pointer;
+}
+.deleteicon:hover{
+    color: red;
+}
+.edit-todo{
+    margin: 1rem;
+}
+.edit-todo:hover{
+    color: rgb(8, 250, 177);
+}
+.modal{
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    margin-top: 37vh;
+    /* transform: translate(-50%,-50%); */
+}
+
+.update-btn{
+    background: rgb(81, 211, 21) !important;
+    margin: 1rem !important;
+    max-height: 1.5rem !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    color: white !important;
+
+}
+.update-btn:hover{
+    background: rgb(59, 160, 12) !important;
+}

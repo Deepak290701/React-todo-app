@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  background: rgba(135, 196, 162, 0.541);
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.todo-ullist{
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.clearAll-btn{
+  font-weight: 600 !important;
+  margin-top: 20px !important;
+  min-width: 10rem !important;
+}
+
